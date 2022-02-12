@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 55%;
+    scroll-behavior: smooth;
+  }
+  .imagen{
+    width: 66%;
+    height: 1%;
+    display:grid;
+    bottom: 10%;
+    position:-ms-page;
+    margin-top: 50%;
+    
+  }
+  
+  body {
+    --main-color: #3e583a;
+    --primry-color: #0e4104;
+  }
+  
+ 
+  
+  h4,
+  h3 {
+    font-family: "muli";
+    color: var(--main-color);
+  }
+  
+  h3 {
+    font-weight: 600rem;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+  }
+  
+  p,
+  a,
+  li,
+  button {
+    font-family: "muli";
+    color: var(--primry-color);
+  }
+  
+  p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  li {
+    list-style:none;
+  }
+  
+  button {
+    padding: 1rem 3rem;
+    border-radius: 0rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+  }
+  
+  /* --------------------------------------  estilo de menu 
+  --------------------------------------------------------------------------- */
+  header {
+    padding: 0 40rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+    
+  }
+  
+  header nav .left-side-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: 55px solid red;
+   
+  }
+  
+  header nav .left-side-menu .sub-menu {
+      width: 150rem;
+      height: 150rem;
+      background: #dcf094;
+      border-radius: 0px;
+      margin-left: -25rem;
+      margin-top: 1rem;
+    height: inherit;
+    display: flex;
+    position: fixed;
+    z-index: 0;
+  }
+  
+  header nav .left-side-menu .sub-menu a {
+    margin-right: 15rem;
+  }
+  
+  header nav .left-side-menu .sub-menu a li {
+    font-size: 3rem;
+    line-height: 5rem;
+    text-transform: capitalize;
+  }
+  
+  /* imagen mia  */
+  
+  header .right-side-menu {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  }
+  
+  header .right-side-menu .sub-menu {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  header .right-side-menu .sub-menu button:hover {
+    background: #1b3d68;
+  }
+  
+  /* -------------------------------------- estilo css
+  --------------------------------------------------------------------------- */
+  .main-will-section {
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  
+  .main-will-section .will-left-side {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .main-will-section h1 {
+    width: 55rem;
+    font-size: 7.5rem;
+    line-height: 9rem;
+    margin-bottom: 5rem;
+    text-transform: capitalize;
+  }
+  
+  .main-hero-section p {
+    margin-bottom: 8rem;
+    width: 45rem;
+  }
+   
+  /* ------------------- estilo de la segunda seccion
+  ------------------------------------ */
+  
+  .common-section {
+    width: ;
+    height: 38rem;
+    display: ;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 9rem;
+    padding:0 24rem;
+  }
+
+  .common-section .right-side h2 {
+    width: 70rem;
+    font-style: normal;
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+  }
+  
+  .common-section .right-side p {
+    width: 40.3rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* ------------------- estilo de tercera seccion
+  ------------------------------------ */
+  
+  .section-third {
+    width: 70;
+    height: 40rem;
+    background: var(--background-color-blue);
+    padding: 3rem 20rem;
+  }
+  
+  .section-third h2 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .section-third p {
+    width: 50rem;
+    height: 9rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .section-third .section-third-task {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4rem;
+  }
